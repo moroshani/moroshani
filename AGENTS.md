@@ -23,6 +23,10 @@ Keep these project roles clear unless the user explicitly changes strategy:
 ## Safety
 
 - Do not add tokens, private local paths, private repo URLs, private email addresses, phone numbers, or unpublished business details.
+- Public contact channels explicitly approved by the user:
+  - `moroshaniofficial@gmail.com`
+  - `https://www.linkedin.com/in/moroshaniofficial/`
+  - `https://t.me/moroshaniofficial`
 - Do not invent contact links, websites, app-store links, screenshots, claims, employers, locations, or credentials.
 - Keep visitor-facing copy direct and modest. Prefer concrete project descriptions over hype.
 

@@ -33,4 +33,8 @@ I am building a steady contribution practice around useful fixes: documentation 
 
 ## Contact
 
-For now, the best public contact path is through the relevant repository's issues or support documents.
+- Email: [moroshaniofficial@gmail.com](mailto:moroshaniofficial@gmail.com)
+- LinkedIn: [moroshaniofficial](https://www.linkedin.com/in/moroshaniofficial/)
+- Telegram: [@moroshaniofficial](https://t.me/moroshaniofficial)
+
+For project-specific questions, use the relevant repository's issues or support documents.

@@ -7,6 +7,9 @@ REQUIRED_TEXT = [
     "https://github.com/moroshani/Dominoyar",
     "https://github.com/moroshani/setadinfo",
     "https://github.com/moroshani/solar-hijri-calendar-component",
+    "moroshaniofficial@gmail.com",
+    "https://www.linkedin.com/in/moroshaniofficial/",
+    "https://t.me/moroshaniofficial",
     "Persian",
     "RTL",
 ]
