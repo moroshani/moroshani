@@ -29,6 +29,7 @@ Keep these project roles clear unless the user explicitly changes strategy:
   - `https://t.me/moroshaniofficial`
 - Do not invent contact links, websites, app-store links, screenshots, claims, employers, locations, or credentials.
 - Keep visitor-facing copy direct and modest. Prefer concrete project descriptions over hype.
+- It is acceptable to mention the user's AI-assisted workflow, but frame it as reviewed/tested engineering work owned by the user.
 
 ## Change Checklist
 

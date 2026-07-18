@@ -23,7 +23,11 @@ My work usually sits close to real use: dashboards people need to trust, interfa
 
 ## Open Source Direction
 
-I am building a steady contribution practice around useful fixes: documentation gaps, TypeScript/React issues, accessibility, tests, Persian/RTL support, and small product-quality improvements in projects where I can make a clear contribution.
+I am building a steady contribution practice around useful fixes: documentation gaps, tests, accessibility, AI/dev-tooling examples, Persian/RTL support, and small product-quality improvements in projects where I can make a clear contribution.
+
+## AI-Assisted Workflow
+
+I use Codex and other AI tools as engineering collaborators, while personally reviewing, testing, and owning the work I publish.
 
 ## How This Account Is Organized
 

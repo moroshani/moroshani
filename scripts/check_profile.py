@@ -10,6 +10,8 @@ REQUIRED_TEXT = [
     "moroshaniofficial@gmail.com",
     "https://www.linkedin.com/in/moroshaniofficial/",
     "https://t.me/moroshaniofficial",
+    "Codex",
+    "AI tools",
     "Persian",
     "RTL",
 ]
