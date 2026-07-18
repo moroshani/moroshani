@@ -14,9 +14,11 @@ My work usually sits close to real use: dashboards people need to trust, interfa
 
 ## Focus
 
+- AI-assisted practical engineering across codebases
 - TypeScript, React, and Vite applications
 - Persian and RTL user experiences
 - Solar Hijri / Jalali date interfaces
+- AI/dev-tooling examples and workflow polish
 - Dashboards, workbenches, and operational tools
 - Public-data monitoring and automation
 - Product polish that makes software easier to trust, maintain, and reuse
@@ -24,6 +26,14 @@ My work usually sits close to real use: dashboards people need to trust, interfa
 ## Open Source Direction
 
 I am building a steady contribution practice around useful fixes: documentation gaps, tests, accessibility, AI/dev-tooling examples, Persian/RTL support, and small product-quality improvements in projects where I can make a clear contribution.
+
+## Selected Open Source Work
+
+| Contribution | Status | What changed |
+| --- | --- | --- |
+| [nanlabs/frontend-reference#139](https://github.com/nanlabs/frontend-reference/pull/139) | Merged | Added a React Router types guide and adjusted it to match the repository's generated README flow. |
+| [storybookjs/mcp#366](https://github.com/storybookjs/mcp/pull/366) | Open | Fixed a stale Storybook MCP agent-setup documentation link. |
+| [usemoss/moss#438](https://github.com/usemoss/moss/pull/438) | Open | Added runnable metadata-filter operator examples for Moss JavaScript users. |
 
 ## AI-Assisted Workflow
 
