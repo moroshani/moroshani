@@ -21,6 +21,10 @@ My work usually sits close to real use: dashboards people need to trust, interfa
 - Public-data monitoring and automation
 - Product polish that makes software easier to trust, maintain, and reuse
 
+## Open Source Direction
+
+I am building a steady contribution practice around useful fixes: documentation gaps, TypeScript/React issues, accessibility, tests, Persian/RTL support, and small product-quality improvements in projects where I can make a clear contribution.
+
 ## How This Account Is Organized
 
 - Product source that should stay private is kept private.
