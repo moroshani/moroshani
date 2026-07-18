@@ -10,6 +10,7 @@ REQUIRED_TEXT = [
     "https://github.com/nanlabs/frontend-reference/pull/139",
     "https://github.com/storybookjs/mcp/pull/366",
     "https://github.com/usemoss/moss/pull/438",
+    "https://github.com/apilens/apilens/pull/207",
     "moroshaniofficial@gmail.com",
     "https://www.linkedin.com/in/moroshaniofficial/",
     "https://t.me/moroshaniofficial",

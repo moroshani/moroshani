@@ -34,6 +34,7 @@ I am building a steady contribution practice around useful fixes: documentation 
 | [nanlabs/frontend-reference#139](https://github.com/nanlabs/frontend-reference/pull/139) | Merged | Added a React Router types guide and adjusted it to match the repository's generated README flow. |
 | [storybookjs/mcp#366](https://github.com/storybookjs/mcp/pull/366) | Open | Fixed a stale Storybook MCP agent-setup documentation link. |
 | [usemoss/moss#438](https://github.com/usemoss/moss/pull/438) | Open | Added runnable metadata-filter operator examples for Moss JavaScript users. |
+| [apilens/apilens#207](https://github.com/apilens/apilens/pull/207) | Open | Added sidebar ARIA state and selection metadata for project-switcher accessibility. |
 
 ## AI-Assisted Workflow
 
