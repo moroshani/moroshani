@@ -15,7 +15,8 @@ My work usually sits close to real use: dashboards people need to trust, interfa
 ## Focus
 
 - AI-assisted practical engineering across codebases
-- TypeScript, React, and Vite applications
+- Polyglot bug fixes, tests, documentation, and developer tooling
+- TypeScript, React, Vite, and Python projects
 - Persian and RTL user experiences
 - Solar Hijri / Jalali date interfaces
 - AI/dev-tooling examples and workflow polish
@@ -36,6 +37,7 @@ I am building a steady contribution practice around useful fixes: documentation 
 | [usemoss/moss#438](https://github.com/usemoss/moss/pull/438) | Open | Added runnable metadata-filter operator examples for Moss JavaScript users. |
 | [apilens/apilens#207](https://github.com/apilens/apilens/pull/207) | Open | Added sidebar ARIA state and selection metadata for project-switcher accessibility. |
 | [influxdata/docs-v2#7524](https://github.com/influxdata/docs-v2/pull/7524) | Open | Repaired broken InfluxDB 3 documentation fragments for tab links, token references, and client-library anchors. |
+| [casact/chainladder-python#1140](https://github.com/casact/chainladder-python/pull/1140) | Open | Removed confusing Triangle min/max aggregation passthroughs and added regression coverage. |
 
 ## AI-Assisted Workflow
 
