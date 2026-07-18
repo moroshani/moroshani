@@ -1,16 +1,18 @@
 # Moroshani
 
-I build practical TypeScript products with a focus on usable interfaces, Persian/RTL workflows, and tools that make real-world information easier to work with.
+I build practical TypeScript products, Persian/RTL interfaces, and open-source tools that make real-world workflows easier to use.
 
 ## Active Projects
 
-- [Dominoyar](https://github.com/moroshani/Dominoyar): a TypeScript scorekeeper for domino games.
-- [setadinfo](https://github.com/moroshani/setadinfo): a Persian RTL workbench for monitoring public Setad tenders and auctions.
+- [Dominoyar](https://github.com/moroshani/Dominoyar): public product home for a Persian RTL domino scorekeeper on web, PWA, and Android.
+- [setadinfo](https://github.com/moroshani/setadinfo): open-source Persian RTL workbench for monitoring public Setad tenders and auctions.
+- [solar-hijri-calendar-component](https://github.com/moroshani/solar-hijri-calendar-component): open-source React Solar Hijri / Jalali calendar component.
 
 ## Focus
 
 - TypeScript, React, and Vite applications
 - Persian and RTL user experiences
+- Solar Hijri / Jalali date interfaces
 - Dashboards, workbenches, and operational tools
 - Public-data monitoring and automation
 - Product polish that makes tools easier to trust and reuse
@@ -19,5 +21,6 @@ I build practical TypeScript products with a focus on usable interfaces, Persian
 
 | Project | Why it matters |
 | --- | --- |
-| [Dominoyar](https://github.com/moroshani/Dominoyar) | Active app with a clear game-score workflow and cross-platform ambitions. |
-| [setadinfo](https://github.com/moroshani/setadinfo) | Active domain project combining RTL UX, public data, and monitoring workflows. |
+| [Dominoyar](https://github.com/moroshani/Dominoyar) | Product/distribution repo for the public app. |
+| [setadinfo](https://github.com/moroshani/setadinfo) | Open-source codebase for a real Persian operational workbench. |
+| [solar-hijri-calendar-component](https://github.com/moroshani/solar-hijri-calendar-component) | Reusable open-source calendar foundation for Persian apps. |
