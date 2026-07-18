@@ -11,6 +11,7 @@ REQUIRED_TEXT = [
     "https://github.com/storybookjs/mcp/pull/366",
     "https://github.com/usemoss/moss/pull/438",
     "https://github.com/apilens/apilens/pull/207",
+    "https://github.com/influxdata/docs-v2/pull/7524",
     "moroshaniofficial@gmail.com",
     "https://www.linkedin.com/in/moroshaniofficial/",
     "https://t.me/moroshaniofficial",

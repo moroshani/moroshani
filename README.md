@@ -35,6 +35,7 @@ I am building a steady contribution practice around useful fixes: documentation 
 | [storybookjs/mcp#366](https://github.com/storybookjs/mcp/pull/366) | Open | Fixed a stale Storybook MCP agent-setup documentation link. |
 | [usemoss/moss#438](https://github.com/usemoss/moss/pull/438) | Open | Added runnable metadata-filter operator examples for Moss JavaScript users. |
 | [apilens/apilens#207](https://github.com/apilens/apilens/pull/207) | Open | Added sidebar ARIA state and selection metadata for project-switcher accessibility. |
+| [influxdata/docs-v2#7524](https://github.com/influxdata/docs-v2/pull/7524) | Open | Repaired broken InfluxDB 3 documentation fragments for tab links, token references, and client-library anchors. |
 
 ## AI-Assisted Workflow
 
