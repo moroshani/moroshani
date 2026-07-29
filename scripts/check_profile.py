@@ -7,6 +7,7 @@ REQUIRED_TEXT = [
     "https://github.com/moroshani/Dominoyar",
     "https://github.com/moroshani/setadinfo",
     "https://github.com/moroshani/solar-hijri-calendar-component",
+    "https://github.com/persian-calendar/persian-calendar/pull/1879",
     "https://github.com/nanlabs/frontend-reference/pull/139",
     "https://github.com/storybookjs/mcp/pull/366",
     "https://github.com/usemoss/moss/pull/438",
