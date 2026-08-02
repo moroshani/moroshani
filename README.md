@@ -32,7 +32,10 @@ I am building a steady contribution practice around useful fixes: documentation 
 
 | Contribution | Status | What changed |
 | --- | --- | --- |
-| [persian-calendar/persian-calendar#1879](https://github.com/persian-calendar/persian-calendar/pull/1879) | Open | Fixed Gregorian month-title overflow at large Android font scales and added an exact UI regression test. |
+| [persian-calendar/persian-calendar#1879](https://github.com/persian-calendar/persian-calendar/pull/1879) | Merged | Fixed Gregorian month-title overflow at large Android font scales and added an exact UI regression test. |
+| [pandas-dev/pandas#66600](https://github.com/pandas-dev/pandas/pull/66600) | In review | Fixed missing-value shifts for NumPy bytes dtypes without changing pandas 4 warning policy. |
+| [pandas-dev/pandas#66601](https://github.com/pandas-dev/pandas/pull/66601) | In review | Preserved original values for Python CSV and HTML converters while retaining numeric parsing elsewhere. |
+| [pandas-dev/pandas#66603](https://github.com/pandas-dev/pandas/pull/66603) | In review | Restored non-string column labels in JSON table roundtrips and rejected ambiguous label collisions. |
 | [nanlabs/frontend-reference#139](https://github.com/nanlabs/frontend-reference/pull/139) | Merged | Added a React Router types guide and adjusted it to match the repository's generated README flow. |
 | [storybookjs/mcp#366](https://github.com/storybookjs/mcp/pull/366) | Open | Fixed a stale Storybook MCP agent-setup documentation link. |
 | [usemoss/moss#438](https://github.com/usemoss/moss/pull/438) | Open | Added runnable metadata-filter operator examples for Moss JavaScript users. |
