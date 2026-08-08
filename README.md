@@ -4,13 +4,15 @@ I publish as **Moroshani** and build practical software around Persian/RTL workf
 
 My work usually sits close to real use: dashboards people need to trust, interfaces that need to feel natural in Persian, and components that should be easy to reuse inside actual products.
 
-## Active Projects
+## Projects I Build and Maintain
 
-| Project | Role | What it is |
-| --- | --- | --- |
-| [Dominoyar](https://github.com/moroshani/Dominoyar) | Product home | Public-facing home for a Persian RTL domino scorekeeper for web, PWA, and Android. |
-| [setadinfo](https://github.com/moroshani/setadinfo) | Open-source app | Persian RTL workbench for monitoring public Setad purchases, tenders, and auctions. |
-| [solar-hijri-calendar-component](https://github.com/moroshani/solar-hijri-calendar-component) ([demo](https://moroshani.github.io/solar-hijri-calendar-component/), [v0.1.0](https://github.com/moroshani/solar-hijri-calendar-component/releases/tag/v0.1.0)) | Open-source package | Tested React Solar Hijri / Jalali date infrastructure for Persian apps. |
+These are my own products and maintained open-source projects. Forks and work I submit to other maintainers are listed separately below.
+
+| Project | Role | Public surface | What it is |
+| --- | --- | --- | --- |
+| [Dominoyar](https://github.com/moroshani/Dominoyar) | Product home | [Repository](https://github.com/moroshani/Dominoyar) | Public-facing home for a Persian RTL domino scorekeeper for web, PWA, and Android. |
+| [SetadInfo](https://github.com/moroshani/setadinfo) | Open-source app | [Live demo](https://moroshani.github.io/setadinfo/) | Persian RTL workbench for monitoring public Setad purchases, tenders, and auctions. The public lab uses synthetic browser-only data. |
+| [Solar Hijri Calendar Component](https://github.com/moroshani/solar-hijri-calendar-component) | Open-source package | [Testing lab](https://moroshani.github.io/solar-hijri-calendar-component/) · [v0.1.0](https://github.com/moroshani/solar-hijri-calendar-component/releases/tag/v0.1.0) | Tested React Solar Hijri / Jalali date infrastructure for Persian apps. |
 
 ## Focus
 
@@ -30,7 +32,9 @@ I am building a steady contribution practice around useful fixes: documentation 
 
 See the [open-source maintenance record](./OPEN_SOURCE.md) for current project status, verification evidence, contribution links, and near-term plans.
 
-## Selected Open Source Work
+## Contributions to Other Projects
+
+The repositories and pull requests in this section belong to their respective upstream maintainers. My forks of projects such as pandas and Persian Calendar exist only to prepare contributions; they are not projects I claim or maintain.
 
 | Contribution | Status | What changed |
 | --- | --- | --- |

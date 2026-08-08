@@ -7,7 +7,9 @@ OPEN_SOURCE = Path("OPEN_SOURCE.md")
 REQUIRED_TEXT = [
     "https://github.com/moroshani/Dominoyar",
     "https://github.com/moroshani/setadinfo",
+    "https://moroshani.github.io/setadinfo/",
     "https://github.com/moroshani/solar-hijri-calendar-component",
+    "https://moroshani.github.io/solar-hijri-calendar-component/",
     "https://github.com/persian-calendar/persian-calendar/pull/1879",
     "https://github.com/pandas-dev/pandas/pull/66600",
     "https://github.com/pandas-dev/pandas/pull/66601",
@@ -25,6 +27,8 @@ REQUIRED_TEXT = [
     "Persian",
     "RTL",
     "Python",
+    "## Projects I Build and Maintain",
+    "## Contributions to Other Projects",
 ]
 
 FORBIDDEN_TEXT = [
@@ -42,7 +46,7 @@ FORBIDDEN_TEXT = [
 OPEN_SOURCE_REQUIRED_TEXT = [
     "Mohammad Mehdi Roshani",
     "https://github.com/moroshani/setadinfo",
-    "https://setadinfo.ariaprojectsdashboard.ir",
+    "https://moroshani.github.io/setadinfo/",
     "https://github.com/moroshani/solar-hijri-calendar-component",
     "https://moroshani.github.io/solar-hijri-calendar-component/",
     "https://github.com/persian-calendar/persian-calendar/pull/1879",
