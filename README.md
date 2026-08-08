@@ -9,7 +9,7 @@ My work usually sits close to real use: dashboards people need to trust, interfa
 | Project | Role | What it is |
 | --- | --- | --- |
 | [Dominoyar](https://github.com/moroshani/Dominoyar) | Product home | Public-facing home for a Persian RTL domino scorekeeper for web, PWA, and Android. |
-| [setadinfo](https://github.com/moroshani/setadinfo) | Open-source app | Persian RTL workbench for monitoring public Setad tenders and auctions. |
+| [setadinfo](https://github.com/moroshani/setadinfo) | Open-source app | Persian RTL workbench for monitoring public Setad purchases, tenders, and auctions. |
 | [solar-hijri-calendar-component](https://github.com/moroshani/solar-hijri-calendar-component) ([demo](https://moroshani.github.io/solar-hijri-calendar-component/)) | Open-source package | Tested React Solar Hijri / Jalali date infrastructure for Persian apps. |
 
 ## Focus

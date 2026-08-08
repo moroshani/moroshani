@@ -11,11 +11,12 @@ I maintain two public MIT-licensed projects and contribute tested fixes to proje
 
 - Source: https://github.com/moroshani/setadinfo
 - Deployed application: https://setadinfo.ariaprojectsdashboard.ir
-- Purpose: a Persian RTL workbench for searching, saving, and monitoring Iranian public tender and auction opportunities.
+- Purpose: a Persian RTL workbench for searching, saving, and monitoring Iranian public purchase, tender, and auction opportunities.
 - Stack: FastAPI, Python, PostgreSQL, Redis, Celery, React, TypeScript, Vite, TanStack Router and Query, Tailwind CSS, Docker Compose, and Nginx.
 - Implemented surface: filtered search, saved monitoring tasks, baseline and delta tracking, listing and offer history, change inspection, notifications, role-based access, run diagnostics, migrations, CI, CodeQL, and dependency automation.
+- Verification: 51 backend tests, a fresh Alembic migration, 84 browser tests, frontend lint and production build, dependency audits, responsive QA from 320px to 1440px, and GitHub CI and CodeQL all pass. GitHub currently reports no open dependency or code-scanning alerts.
 - Current adoption: the application is in active development and currently used only by its maintainer for real workflow and reliability testing. I do not claim public adoption yet.
-- Near-term work: publish the verified redesign in reviewable changes, strengthen acquisition and notification reliability, expand contract tests, improve operational evidence, and make the codebase easier for Persian-speaking contributors to enter.
+- Near-term work: strengthen acquisition and notification reliability, expand contract tests, reduce the main frontend bundle, prepare the first tagged release, and make the codebase easier for Persian-speaking contributors to enter.
 
 ### Solar Hijri Calendar Component
 
