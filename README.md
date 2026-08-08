@@ -1,6 +1,6 @@
-# Moroshani
+# Mohammad Mehdi Roshani
 
-I build practical software around Persian/RTL workflows, public-data monitoring, product surfaces, and small reusable tools.
+I publish as **Moroshani** and build practical software around Persian/RTL workflows, public-data monitoring, product surfaces, and reusable tools.
 
 My work usually sits close to real use: dashboards people need to trust, interfaces that need to feel natural in Persian, and components that should be easy to reuse inside actual products.
 
@@ -10,7 +10,7 @@ My work usually sits close to real use: dashboards people need to trust, interfa
 | --- | --- | --- |
 | [Dominoyar](https://github.com/moroshani/Dominoyar) | Product home | Public-facing home for a Persian RTL domino scorekeeper for web, PWA, and Android. |
 | [setadinfo](https://github.com/moroshani/setadinfo) | Open-source app | Persian RTL workbench for monitoring public Setad tenders and auctions. |
-| [solar-hijri-calendar-component](https://github.com/moroshani/solar-hijri-calendar-component) | Open-source package | Reusable React Solar Hijri / Jalali calendar component for Persian apps. |
+| [solar-hijri-calendar-component](https://github.com/moroshani/solar-hijri-calendar-component) ([demo](https://moroshani.github.io/solar-hijri-calendar-component/)) | Open-source package | Tested React Solar Hijri / Jalali date infrastructure for Persian apps. |
 
 ## Focus
 
@@ -27,6 +27,8 @@ My work usually sits close to real use: dashboards people need to trust, interfa
 ## Open Source Direction
 
 I am building a steady contribution practice around useful fixes: documentation gaps, tests, accessibility, AI/dev-tooling examples, Persian/RTL support, and small product-quality improvements in projects where I can make a clear contribution.
+
+See the [open-source maintenance record](./OPEN_SOURCE.md) for current project status, verification evidence, contribution links, and near-term plans.
 
 ## Selected Open Source Work
 
