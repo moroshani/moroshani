@@ -1,7 +1,7 @@
 # Open-Source Maintenance
 
 **Maintainer:** Mohammad Mehdi Roshani ([@moroshani](https://github.com/moroshani))  
-**Status date:** 2026-08-08
+**Status date:** 2026-08-09
 
 I maintain two public MIT-licensed projects and contribute tested fixes to projects maintained by other teams. The projects are early, so this page separates my own maintained work from upstream contributions, adoption, and future plans.
 
@@ -41,7 +41,7 @@ Merged work includes:
 - [nanlabs/frontend-reference#139](https://github.com/nanlabs/frontend-reference/pull/139): added and integrated React Router type guidance.
 - [influxdata/docs-v2#7524](https://github.com/influxdata/docs-v2/pull/7524): repaired broken documentation fragments and anchors.
 
-Maintainer-ready work under review includes fixes for pandas bytes shifts, converter behavior, and JSON table labels, plus contributions to Moss, Storybook MCP, and APILens. Direct links and current statuses are kept in the [profile README](./README.md).
+Maintainer-ready work under review includes fixes for pandas bytes shifts, converter behavior, and JSON table labels, plus contributions to Moss, Storybook MCP, and APILens. All six open PRs were rechecked on 2026-08-09; Moss was refreshed against current `main` with its full project CI green, while the other branches have no requested technical changes. Direct links and current statuses are kept in the [profile README](./README.md).
 
 ## Maintenance Practice
 
