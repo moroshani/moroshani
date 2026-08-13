@@ -1,7 +1,7 @@
 # Open-Source Maintenance
 
 **Maintainer:** Mohammad Mehdi Roshani ([@moroshani](https://github.com/moroshani))  
-**Status date:** 2026-08-09
+**Status date:** 2026-08-13
 
 I maintain two public MIT-licensed projects and contribute tested fixes to projects maintained by other teams. The projects are early, so this page separates my own maintained work from upstream contributions, adoption, and future plans.
 
@@ -41,7 +41,7 @@ Merged work includes:
 - [nanlabs/frontend-reference#139](https://github.com/nanlabs/frontend-reference/pull/139): added and integrated React Router type guidance.
 - [influxdata/docs-v2#7524](https://github.com/influxdata/docs-v2/pull/7524): repaired broken documentation fragments and anchors.
 
-Maintainer-ready work under review includes fixes for pandas bytes shifts, converter behavior, and JSON table labels, plus contributions to Moss, Storybook MCP, and APILens. All six open PRs were rechecked on 2026-08-09; Moss was refreshed against current `main` with its full project CI green, while the other branches have no requested technical changes. Direct links and current statuses are kept in the [profile README](./README.md).
+Maintainer-ready work under review includes three pandas correctness fixes, runnable Moss metadata-filter examples, a Floci Docker error-handling fix, and contributions to Storybook MCP and APILens. On 2026-08-13, pandas `#66600` and Moss `#438` were updated in response to review and finished with all hosted checks green. Floci `#2268` has focused JDK 25 regression coverage, is mergeable, and received a 5/5 automated review; its full Actions suite is waiting for the repository's standard first-time-contributor approval. Direct links and current statuses are kept in the [profile README](./README.md).
 
 ## Maintenance Practice
 

@@ -14,6 +14,7 @@ REQUIRED_TEXT = [
     "https://github.com/pandas-dev/pandas/pull/66600",
     "https://github.com/pandas-dev/pandas/pull/66601",
     "https://github.com/pandas-dev/pandas/pull/66603",
+    "https://github.com/floci-io/floci/pull/2268",
     "https://github.com/nanlabs/frontend-reference/pull/139",
     "https://github.com/storybookjs/mcp/pull/366",
     "https://github.com/usemoss/moss/pull/438",
