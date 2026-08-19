@@ -42,7 +42,7 @@ The repositories and pull requests in this section belong to their respective up
 | [pandas-dev/pandas#66600](https://github.com/pandas-dev/pandas/pull/66600) | In review | Fixed missing-value handling for NumPy bytes dtypes across shift, where, mask, and direct assignment, with the full cross-platform matrix green. |
 | [pandas-dev/pandas#66601](https://github.com/pandas-dev/pandas/pull/66601) | In review | Preserved original values for Python CSV and HTML converters while retaining numeric parsing elsewhere. |
 | [pandas-dev/pandas#66603](https://github.com/pandas-dev/pandas/pull/66603) | In review | Restored non-string column labels in JSON table roundtrips and rejected ambiguous label collisions. |
-| [floci-io/floci#2268](https://github.com/floci-io/floci/pull/2268) | In review | Preserved Docker image-inspection failures instead of misclassifying them as missing images and starting misleading pulls. |
+| [floci-io/floci#2268](https://github.com/floci-io/floci/pull/2268) | Merged | Preserved Docker image-inspection failures instead of misclassifying them as missing images and starting misleading pulls; shipped in Floci 1.7.0. |
 | [nanlabs/frontend-reference#139](https://github.com/nanlabs/frontend-reference/pull/139) | Merged | Added a React Router types guide and adjusted it to match the repository's generated README flow. |
 | [storybookjs/mcp#366](https://github.com/storybookjs/mcp/pull/366) | Open | Fixed a stale Storybook MCP agent-setup documentation link. |
 | [usemoss/moss#438](https://github.com/usemoss/moss/pull/438) | Open | Added runnable metadata-filter operator examples for Moss JavaScript users. |
