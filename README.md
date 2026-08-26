@@ -11,7 +11,7 @@ open-source projects.
 
 | Project | What it proves | Evidence |
 | --- | --- | --- |
-| **[Solar Hijri Calendar Component](https://github.com/moroshani/solar-hijri-calendar-component)** | Accessible React and TypeScript primitives for Solar Hijri/Jalali dates, with controlled single, range, multiple, month, and year behavior. | [Live lab](https://moroshani.github.io/solar-hijri-calendar-component/) · [v0.1.0 source release](https://github.com/moroshani/solar-hijri-calendar-component/releases/tag/v0.1.0) |
+| **[Solar Hijri Calendar Component](https://github.com/moroshani/solar-hijri-calendar-component)** | Published React and TypeScript primitives for Solar Hijri/Jalali dates, with controlled single, range, multiple, month, and year behavior. | [npm package](https://www.npmjs.com/package/solar-hijri-calendar-component) · [Live lab](https://moroshani.github.io/solar-hijri-calendar-component/) · [v0.1.1 release](https://github.com/moroshani/solar-hijri-calendar-component/releases/tag/v0.1.1) |
 | **[SetadInfo](https://github.com/moroshani/setadinfo)** | An open-source Persian RTL workbench for monitoring public purchases, tenders, and auctions. | [Synthetic browser demo](https://moroshani.github.io/setadinfo/) · [Source](https://github.com/moroshani/setadinfo) |
 | **[Dominoyar](https://github.com/moroshani/Dominoyar)** | The public product and support home for a Persian RTL domino scorekeeper for web, PWA, and Android. | [Product repository](https://github.com/moroshani/Dominoyar) |
 
