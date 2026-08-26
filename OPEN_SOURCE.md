@@ -1,7 +1,7 @@
 # Open-Source Maintenance
 
 **Maintainer:** Mohammad Mehdi Roshani ([@moroshani](https://github.com/moroshani))  
-**Status date:** 2026-08-19
+**Status date:** 2026-08-26
 
 I maintain two public MIT-licensed projects and contribute tested fixes to projects maintained by other teams. The projects are early, so this page separates my own maintained work from upstream contributions, adoption, and future plans.
 
@@ -38,10 +38,11 @@ Everything in this section is work submitted to projects owned and maintained by
 Merged work includes:
 
 - [persian-calendar/persian-calendar#1879](https://github.com/persian-calendar/persian-calendar/pull/1879): fixed a Gregorian month-title overflow at large Android font scales and added an exact UI regression test.
+- [pandas-dev/pandas#66600](https://github.com/pandas-dev/pandas/pull/66600): fixed missing-value handling for NumPy bytes dtypes across shift, where, mask, and direct assignment.
 - [nanlabs/frontend-reference#139](https://github.com/nanlabs/frontend-reference/pull/139): added and integrated React Router type guidance.
 - [influxdata/docs-v2#7524](https://github.com/influxdata/docs-v2/pull/7524): repaired broken documentation fragments and anchors.
 
-Maintainer-ready work under review includes three pandas correctness fixes, runnable Moss metadata-filter examples, contributions to Storybook MCP and APILens, and idempotent issue-assignment handling for OpenEverest. Floci `#2268` was merged on 2026-08-13 after maintainer review and focused JDK 25 regression testing, then shipped in Floci 1.7.0 on 2026-08-18. Direct links and current statuses are kept in the [profile README](./README.md).
+Maintainer-ready work under review includes two more pandas correctness fixes, runnable Moss metadata-filter examples, contributions to Storybook MCP and APILens, and idempotent issue-assignment handling for OpenEverest. Floci `#2268` was merged on 2026-08-13 after maintainer review and focused JDK 25 regression testing, then shipped in Floci 1.7.0 on 2026-08-18. Direct links and current statuses are kept in the [profile README](./README.md).
 
 ## Maintenance Practice
 
