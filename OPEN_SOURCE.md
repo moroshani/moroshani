@@ -14,17 +14,20 @@ claim as my own.
 
 - [Source](https://github.com/moroshani/solar-hijri-calendar-component)
 - [Live testing lab](https://moroshani.github.io/solar-hijri-calendar-component/)
-- [v0.1.0 source release](https://github.com/moroshani/solar-hijri-calendar-component/releases/tag/v0.1.0)
+- [npm package](https://www.npmjs.com/package/solar-hijri-calendar-component)
+- [v0.1.1 release](https://github.com/moroshani/solar-hijri-calendar-component/releases/tag/v0.1.1)
 - Purpose: reusable, accessible Solar Hijri/Jalali date behavior for Persian and
   RTL applications.
 - Stack: TypeScript, React, Vite, Vitest, Playwright, and `jalaali-js`.
 - Verified surface: controlled single, range, and multiple selection; month and
-  year navigation; framework-neutral date/selection helpers; Persian and English
-  labels; RTL presentation; ESM, CommonJS, TypeScript, React, and CSS exports.
-- Release evidence: clean install, zero-vulnerability audit, TypeScript, 22 unit
-  tests, two builds, 25 browser interactions, five visual captures, package
-  inspection, consumer smoke testing, CI, Pages, and CodeQL passed.
-- Honest status: npm publication and external adoption are not claimed yet.
+  year navigation; framework-neutral validation, date arithmetic, inclusive
+  bounds, constraints, and selection helpers; Persian and English labels; RTL
+  presentation; ESM, CommonJS, TypeScript, React, and CSS exports.
+- Release evidence: npm publication, clean install, zero-vulnerability audit,
+  strict TypeScript `NodeNext`, 53 unit tests, two builds, 25 browser
+  interactions, five visual captures, package inspection, clean downstream
+  consumers, CI, Pages, and CodeQL passed.
+- Honest status: `v0.1.1` is published; external adoption is not claimed yet.
 
 ### SetadInfo
 
