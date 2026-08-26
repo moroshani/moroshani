@@ -1,58 +1,88 @@
-# Open-Source Maintenance
+# Open-Source Record
 
-**Maintainer:** Mohammad Mehdi Roshani ([@moroshani](https://github.com/moroshani))  
-**Status date:** 2026-08-26
+**Maintainer:** Mohammad Mehdi Roshani ([@moroshani](https://github.com/moroshani))
 
-I maintain two public MIT-licensed projects and contribute tested fixes to projects maintained by other teams. The projects are early, so this page separates my own maintained work from upstream contributions, adoption, and future plans.
+**Verified:** 2026-08-26
 
-## Maintained Projects
+This page separates projects I own and maintain from work submitted to other
+maintainers. Forks under `moroshani` are contribution workspaces, not projects I
+claim as my own.
 
-### SetadInfo
-
-- Source: https://github.com/moroshani/setadinfo
-- Public browser-only demo: https://moroshani.github.io/setadinfo/
-- Production status: a private deployment is used by the maintainer and is not presented as a public service.
-- Purpose: a Persian RTL workbench for searching, saving, and monitoring Iranian public purchase, tender, and auction opportunities.
-- Stack: FastAPI, Python, PostgreSQL, Redis, Celery, React, TypeScript, Vite, TanStack Router and Query, Tailwind CSS, Docker Compose, and Nginx.
-- Implemented surface: filtered search, saved monitoring tasks, baseline and delta tracking, listing and offer history, change inspection, notifications, role-based access, run diagnostics, migrations, CI, CodeQL, and dependency automation.
-- Verification: 53 backend tests, a fresh Alembic migration, 42 frontend tests, frontend lint and production build, dependency audits, responsive QA from 320px to 1440px, and GitHub CI and CodeQL all pass. The public demo also has a dedicated browser gate that rejects API requests, console errors, and responsive overflow.
-- Current adoption: the application is in active development and currently used only by its maintainer for real workflow and reliability testing. I do not claim public adoption yet.
-- Near-term work: strengthen acquisition and notification reliability, expand contract tests, reduce the main frontend bundle, prepare the first tagged release, and make the codebase easier for Persian-speaking contributors to enter.
+## Owned And Maintained
 
 ### Solar Hijri Calendar Component
 
-- Source: https://github.com/moroshani/solar-hijri-calendar-component
-- First source release: https://github.com/moroshani/solar-hijri-calendar-component/releases/tag/v0.1.0
-- Live demo: https://moroshani.github.io/solar-hijri-calendar-component/
-- Purpose: reusable, accessible Solar Hijri / Jalali date behavior for Persian and RTL applications.
+- [Source](https://github.com/moroshani/solar-hijri-calendar-component)
+- [Live testing lab](https://moroshani.github.io/solar-hijri-calendar-component/)
+- [v0.1.0 source release](https://github.com/moroshani/solar-hijri-calendar-component/releases/tag/v0.1.0)
+- Purpose: reusable, accessible Solar Hijri/Jalali date behavior for Persian and
+  RTL applications.
 - Stack: TypeScript, React, Vite, Vitest, Playwright, and `jalaali-js`.
-- Implemented surface: controlled single, range, and multiple selection; controlled month and year navigation; framework-neutral date math, constraints, and selection helpers; Persian and English labels; RTL presentation; ESM, CommonJS, TypeScript, React, and CSS package exports.
-- Verification: clean dependency install, zero known audit vulnerabilities, TypeScript checks, 22 unit tests, two production builds, 25 responsive interaction tests, 5 visual captures, package-content inspection, and a separate consumer smoke test all passed for `0.1.0`. GitHub CI, Pages deployment, and CodeQL are green with no open security alerts.
-- Current adoption: the first GitHub source release is public. npm publication is still pending, and there are no external users or download claims yet.
-- Near-term work: complete the first registry release, deepen date-correctness and accessibility coverage, continue extracting a framework-neutral core, and add carefully tested adapters without fragmenting calendar behavior.
+- Verified surface: controlled single, range, and multiple selection; month and
+  year navigation; framework-neutral date/selection helpers; Persian and English
+  labels; RTL presentation; ESM, CommonJS, TypeScript, React, and CSS exports.
+- Release evidence: clean install, zero-vulnerability audit, TypeScript, 22 unit
+  tests, two builds, 25 browser interactions, five visual captures, package
+  inspection, consumer smoke testing, CI, Pages, and CodeQL passed.
+- Honest status: npm publication and external adoption are not claimed yet.
 
-## Upstream Contributions
+### SetadInfo
 
-Everything in this section is work submitted to projects owned and maintained by other people or organizations. Forks under `moroshani` are contribution workspaces, not maintained projects.
+- [Source](https://github.com/moroshani/setadinfo)
+- [Synthetic browser demo](https://moroshani.github.io/setadinfo/)
+- Purpose: Persian RTL monitoring workbench for Iranian public purchase, tender,
+  and auction opportunities.
+- Stack: FastAPI, Python, PostgreSQL, Redis, Celery, React, TypeScript, Vite,
+  TanStack Router/Query, Docker Compose, and Nginx.
+- Verified surface: filtered search, saved monitoring tasks, history and change
+  inspection, notifications, roles, diagnostics, migrations, CI, CodeQL, and
+  dependency automation.
+- Release evidence: 53 backend tests and fresh migration; 42 frontend tests,
+  lint, production/demo builds, dependency audits, responsive browser QA, CI,
+  CodeQL, and demo isolation checks passed.
+- Honest status: the maintainer is the current user; there is no tagged release
+  or public-adoption claim yet.
 
-Merged work includes:
+### Dominoyar
 
-- [persian-calendar/persian-calendar#1879](https://github.com/persian-calendar/persian-calendar/pull/1879): fixed a Gregorian month-title overflow at large Android font scales and added an exact UI regression test.
-- [pandas-dev/pandas#66600](https://github.com/pandas-dev/pandas/pull/66600): fixed missing-value handling for NumPy bytes dtypes across shift, where, mask, and direct assignment.
-- [nanlabs/frontend-reference#139](https://github.com/nanlabs/frontend-reference/pull/139): added and integrated React Router type guidance.
-- [influxdata/docs-v2#7524](https://github.com/influxdata/docs-v2/pull/7524): repaired broken documentation fragments and anchors.
+- [Public product and support repository](https://github.com/moroshani/Dominoyar)
+- Role: public information, support, privacy, and future release material for a
+  Persian RTL domino scorekeeper. It is not a public source repository.
 
-Maintainer-ready work under review includes two more pandas correctness fixes, runnable Moss metadata-filter examples, contributions to Storybook MCP and APILens, and idempotent issue-assignment handling for OpenEverest. Floci `#2268` was merged on 2026-08-13 after maintainer review and focused JDK 25 regression testing, then shipped in Floci 1.7.0 on 2026-08-18. Direct links and current statuses are kept in the [profile README](./README.md).
+## Merged Upstream Work
 
-## Maintenance Practice
+| Project | Result |
+| --- | --- |
+| [pandas `#66600`](https://github.com/pandas-dev/pandas/pull/66600) | Corrected missing-value handling for NumPy bytes dtypes. |
+| [Persian Calendar `#1879`](https://github.com/persian-calendar/persian-calendar/pull/1879) | Fixed month-title overflow at large Android font scales with an exact UI regression test. |
+| [Floci `#2268`](https://github.com/floci-io/floci/pull/2268) | Preserved Docker image-inspection failures; shipped in Floci `1.7.0`. |
+| [InfluxData docs `#7524`](https://github.com/influxdata/docs-v2/pull/7524) | Repaired broken InfluxDB 3 documentation fragments. |
+| [frontend-reference `#139`](https://github.com/nanlabs/frontend-reference/pull/139) | Added React Router type examples and generated-doc integration. |
 
-- Select work by usefulness, reproducibility, and the ability to verify behavior, not by language or contribution-count targets.
-- Check ownership, active contributor intent, related pull requests, repository policy, internal callers, and behavioral impact before taking an issue.
-- Keep changes focused, add regression coverage, run the relevant broader suites, and communicate in the project's language and conventions.
-- Welcome responsible AI-assisted contributions when the contributor reviews, understands, discloses, and tests the result.
+## Work Under Review
 
-I use Codex and other AI tools for codebase research, implementation, tests, documentation, and review preparation. I remain responsible for every decision and public submission under my account.
+Live state was rechecked through GitHub immediately before this update.
 
-## Direction
+| Project | Current evidence |
+| --- | --- |
+| [pandas `#66601`](https://github.com/pandas-dev/pandas/pull/66601) | Mergeable and fully green at `ce5a64bf25`; waiting for maintainer review. |
+| [pandas `#66603`](https://github.com/pandas-dev/pandas/pull/66603) | Mergeable and fully green at `802cf90cb9`; review response published and awaiting re-review. |
+| [Moss `#438`](https://github.com/usemoss/moss/pull/438) | Mergeable with successful hosted checks; waiting for review. |
+| [Storybook MCP `#366`](https://github.com/storybookjs/mcp/pull/366) | Mergeable with successful hosted checks; waiting for review. |
+| [APILens `#207`](https://github.com/apilens/apilens/pull/207) | Mergeable; GitHub reports no hosted check rollup. |
+| [OpenEverest `#3002`](https://github.com/openeverest/openeverest/pull/3002) | Mergeable with successful hosted checks; waiting for review. |
 
-The goal is to turn both maintained projects into dependable, contributor-friendly infrastructure while continuing useful work in the Persian software community and in high-standard worldwide projects. Public support would be spent on deeper verification, release work, accessibility, documentation, and substantial maintainer-ready contributions rather than artificial activity.
+## Maintainer Handoff
+
+- [Persian Calendar issue `#1256`](https://github.com/persian-calendar/persian-calendar/issues/1256): the current-upstream fix passed formatting, JVM tests, Android-test assembly, and the exact API 29 instrumentation test. It was delivered through the issue because external contributors cannot open the PR directly.
+
+## Engineering Practice
+
+- Select work by usefulness, reproducibility, ownership, and verifiability rather
+  than submission frequency.
+- Check contributor intent, duplicates, repository policy, internal callers, and
+  behavioral impact before implementation.
+- Add regression evidence, run affected suites and required final gates, and
+  communicate in the project's language and conventions.
+- Use Codex and other AI tools transparently while personally reviewing,
+  understanding, testing, and owning every submitted change.
