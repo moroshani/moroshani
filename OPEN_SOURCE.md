@@ -68,10 +68,10 @@ Live state was rechecked through GitHub immediately before this update.
 
 | Project | Current evidence |
 | --- | --- |
-| [pandas `#66601`](https://github.com/pandas-dev/pandas/pull/66601) | Rebased, broadly verified locally, and mergeable at `7b1ce5294c8`; hosted checks are running, with one unrelated nightly-wheel HTTP 404 before tests. |
+| [pandas `#66601`](https://github.com/pandas-dev/pandas/pull/66601) | Rebased, broadly verified, and mergeable at `7b1ce5294c8`; 46 hosted checks pass, five skip, and only PyArrow Nightly fails on current `main`'s same missing wheel. |
 | [pandas `#66603`](https://github.com/pandas-dev/pandas/pull/66603) | Mergeable at `802cf90cb9`; review response published and awaiting maintainer re-review. |
-| [Moss `#438`](https://github.com/usemoss/moss/pull/438) | Mergeable; 15 checks pass, two remain pending, and the latest automated review reports no actionable finding. |
-| [Storybook MCP `#366`](https://github.com/storybookjs/mcp/pull/366) | Mergeable but behind, with one hosted check pending and no maintainer review. |
+| [Moss `#438`](https://github.com/usemoss/moss/pull/438) | Mergeable with 17 checks passing; the latest automated review reports no actionable finding. |
+| [Storybook MCP `#366`](https://github.com/storybookjs/mcp/pull/366) | Mergeable but behind, with one check passing, three skipped, and no maintainer review. |
 | [APILens `#207`](https://github.com/apilens/apilens/pull/207) | Mergeable; GitHub reports no hosted check rollup. |
 | [OpenEverest `#3002`](https://github.com/openeverest/openeverest/pull/3002) | Mergeable but behind, with two hosted checks passing and no maintainer review. |
 
