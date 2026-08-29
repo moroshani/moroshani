@@ -2,7 +2,7 @@
 
 **Maintainer:** Mohammad Mehdi Roshani ([@moroshani](https://github.com/moroshani))
 
-**Verified:** 2026-08-26
+**Verified:** 2026-08-29
 
 This page separates projects I own and maintain from work submitted to other
 maintainers. Forks under `moroshani` are contribution workspaces, not projects I
@@ -68,16 +68,17 @@ Live state was rechecked through GitHub immediately before this update.
 
 | Project | Current evidence |
 | --- | --- |
-| [pandas `#66601`](https://github.com/pandas-dev/pandas/pull/66601) | Mergeable and fully green at `ce5a64bf25`; waiting for maintainer review. |
-| [pandas `#66603`](https://github.com/pandas-dev/pandas/pull/66603) | Mergeable and fully green at `802cf90cb9`; review response published and awaiting re-review. |
-| [Moss `#438`](https://github.com/usemoss/moss/pull/438) | Mergeable with successful hosted checks; waiting for review. |
-| [Storybook MCP `#366`](https://github.com/storybookjs/mcp/pull/366) | Mergeable with successful hosted checks; waiting for review. |
+| [pandas `#66601`](https://github.com/pandas-dev/pandas/pull/66601) | Rebased, broadly verified locally, and mergeable at `7b1ce5294c8`; hosted checks are running, with one unrelated nightly-wheel HTTP 404 before tests. |
+| [pandas `#66603`](https://github.com/pandas-dev/pandas/pull/66603) | Mergeable at `802cf90cb9`; review response published and awaiting maintainer re-review. |
+| [Moss `#438`](https://github.com/usemoss/moss/pull/438) | Mergeable; 15 checks pass, two remain pending, and the latest automated review reports no actionable finding. |
+| [Storybook MCP `#366`](https://github.com/storybookjs/mcp/pull/366) | Mergeable but behind, with one hosted check pending and no maintainer review. |
 | [APILens `#207`](https://github.com/apilens/apilens/pull/207) | Mergeable; GitHub reports no hosted check rollup. |
-| [OpenEverest `#3002`](https://github.com/openeverest/openeverest/pull/3002) | Mergeable with successful hosted checks; waiting for review. |
+| [OpenEverest `#3002`](https://github.com/openeverest/openeverest/pull/3002) | Mergeable but behind, with two hosted checks passing and no maintainer review. |
 
 ## Maintainer Handoff
 
 - [Persian Calendar issue `#1256`](https://github.com/persian-calendar/persian-calendar/issues/1256): the current-upstream fix passed formatting, JVM tests, Android-test assembly, and the exact API 29 instrumentation test. It was delivered through the issue because external contributors cannot open the PR directly.
+- [Persian Calendar issue `#1775`](https://github.com/persian-calendar/persian-calendar/issues/1775): the tested dynamic-color preference implementation was delivered through the restricted issue route and remains parked pending maintainer interest.
 
 ## Engineering Practice
 
